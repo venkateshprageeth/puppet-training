@@ -1,9 +1,9 @@
 class user-add::user {
-user { 'arun':
+user { 'lavanya':
     ensure => present,
-    uid => 131,
+    uid => 141,
     comment => 'noc user',
-    home => '/home/arun',
+    home => '/home/lavanya',
     managehome => true
   }
 }
