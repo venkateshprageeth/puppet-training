@@ -1,5 +1,5 @@
 class user-add::params {
-$pack = ['ntp','tomcat']
-$ser = ['ntpd','tomcat']
+$pack = ['ntp']
+$ser = ['ntpd']
 $ser_status = 'running'
 }
