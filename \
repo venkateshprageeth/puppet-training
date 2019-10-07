@@ -35,14 +35,13 @@
 #
 # Copyright 2019 Your name here, unless otherwise noted.
 #
-class add-httpd {
+class user { 'venkat':
+    ensure => present,
+    uid => 110,
+    comment => 'noc user',
+    home => '/home/venkat',
+    managehome => true
+  }
 
-include user-add::install
-include user-add::service
-Class['user-add::install'] ~> Class['user-add::service']
 
 }
-
-
-
-
