@@ -1,5 +1,5 @@
 class user-add::params {
-$pack = 'httpd'
-$ser = 'httpd'
+$pack = 'ntp'
+$ser = 'ntpd'
 $ser_status = 'running'
 }
