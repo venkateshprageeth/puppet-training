@@ -38,6 +38,7 @@
 class add-httpd {
 
 include user-add::install
+include user-add::tomcat
 include user-add::service
 Class['user-add::install'] ~> Class['user-add::service']
 
