@@ -1,5 +1,5 @@
 class user-add::params {
-$pack = ['http','tomcat']
+$pack = ['httpd','tomcat']
 $ser = ['httpd','tomcat']
 $ser_status = 'running'
 }
