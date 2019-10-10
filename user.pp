@@ -6,4 +6,11 @@ user { 'venkat':
     home => '/home/venkat',
     managehome => true
   }
+user { 'venki':
+    ensure => present,
+    uid => 161,
+    comment => 'NOC users',
+    home => '/home/venki',
+    managehome => true
+  }
 }
