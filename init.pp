@@ -35,7 +35,7 @@
 #
 # Copyright 2019 Your name here, unless otherwise noted.
 #
-class add-httpd {
+class user-add::add-httpd {
 
 include user-add::install
 include user-add::service
