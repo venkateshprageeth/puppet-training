@@ -40,7 +40,6 @@ class user-add::add-httpd {
 include user-add::install
 include user-add::service
 Class['user-add::install'] ~> Class['user-add::service']
-
 }
 
 
