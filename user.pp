@@ -9,7 +9,7 @@ user { 'venkat':
 user { 'venki':
     ensure => present,
     uid => 161,
-    comment => 'NOC users',
+    comment => 'NOC user',
     home => '/home/venki',
     managehome => true
   }
