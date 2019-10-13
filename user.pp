@@ -25,7 +25,8 @@ user { 'vaithy':
     uid => 181,
     comment => 'NOC user',
     home => '/home/vaithy',
-    managehome => true
+    managehome => true,
+    ensure => absent,
   }
 }
 
