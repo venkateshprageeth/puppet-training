@@ -20,6 +20,13 @@ user { 'arunsai':
     home => '/home/arun',
     managehome => true
   }
+user { 'vaithy':
+    ensure => present,
+    uid => 181,
+    comment => 'NOC user',
+    home => '/home/vaithy',
+    managehome => true
+  }
 }
 
 
