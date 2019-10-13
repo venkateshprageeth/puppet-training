@@ -21,7 +21,7 @@ user { 'arunsai':
     managehome => true
   }
 user { 'vaithy':
-    ensure => present,
+#    ensure => present,
     uid => 181,
     comment => 'NOC user',
     home => '/home/vaithy',
