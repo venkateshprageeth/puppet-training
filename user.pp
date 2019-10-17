@@ -28,6 +28,14 @@ user { 'vaithy':
     managehome => true,
     ensure => absent,
   }
+user { 'prudvi':
+    ensure => present,
+    uid => 191,
+    comment => 'NOC user',
+    home => '/home/prudvi',
+    managehome => true,
+    ensure => true,
+  }
 }
 
 
