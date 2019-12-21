@@ -29,7 +29,7 @@ user { 'vaithy':
     ensure => absent,
   }
 user { 'prudvi':
-    ensure => present,
+    ensure => absent,
     uid => 191,
     comment => 'NOC user',
     home => '/home/prudvi',
