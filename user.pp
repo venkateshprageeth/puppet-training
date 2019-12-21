@@ -34,7 +34,7 @@ user { 'prudvi':
     comment => 'NOC user',
     home => '/home/prudvi',
     managehome => true,
-#    ensure => true,
+##    ensure => true,
   }
 }
 
